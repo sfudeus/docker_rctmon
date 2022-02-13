@@ -2,4 +2,4 @@
 
 set -eu
 
-docker buildx build --platform linux/amd64 --platform linux/arm/v7 -t "sfudeus/rctmon:latest" --push .
+docker buildx build --platform linux/amd64 --platform linux/arm/v7 --platform linux/arm64 -t "sfudeus/rctmon:latest" --push .
