@@ -1,4 +1,4 @@
-name: Docker Build/Publish Image
+name: Docker Build/Publish Preview Image from branch
 on:
   push:
     branches-ignore:
