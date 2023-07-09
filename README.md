@@ -4,7 +4,7 @@ This is a multi-arch docker build of [svalouch/rctmon](https://github.com/svalou
 
 ## Usage
 
-This project auto-publishes a multi-arch (armv7, am64, amd64) docker image to [Docker Hub](https://hub.docker.com/r/sfudeus/rctmon).
+This project auto-publishes a multi-arch (armv7, arm64, amd64) docker image to [Docker Hub](https://hub.docker.com/r/sfudeus/rctmon).
 The exporter runs on port 9831 by default (exposed port in `Dockerfile`, but can be configured to run on a different port.
 
 It can be run with the following command,
