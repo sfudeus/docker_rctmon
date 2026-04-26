@@ -3,7 +3,7 @@ LABEL maintainer="Stephan Fudeus <github@mails.fudeus.net>"
 
 #RUN apk update && apk add git cargo
 RUN apt-get update && apt-get -y --no-install-recommends install git
-RUN pip3 install -U --no-cache-dir git+https://github.com/sfudeus/rctmon@cell_temperature_voltage
+RUN pip3 install -U --no-cache-dir git+https://github.com/sfudeus/rctmon@cell_resistance
 
 CMD ["rctmon", "-c", "/config.yaml", "daemon"]
 EXPOSE 9831
